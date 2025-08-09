@@ -1,0 +1,114 @@
+{
+  "locale": "en",
+
+  "profile": {
+    "position": "Full-Stack Developer",
+    "experience": "Experience: +{count} years",
+    "description": "Passionate full-stack developer driven by technical excellence and product impact. Focused on reliability, maintainability, and user experience, with a strong commitment to building robust solutions and a long-term vision."
+  },
+
+  "projects": {
+    "title": "Featured Projects",
+    "logicGates": {
+      "description": "Interactive simulator to explore and understand how logic gates work through a visual and intuitive interface."
+    },
+    "characterGenerator": {
+      "description": "Create and customize 2D characters from a wide range of visual elements with instant preview."
+    },
+    "conway": {
+      "description": "Visual simulation of Conway’s famous « Game of Life », exploring how dynamic patterns emerge from simple rules."
+    },
+    "lyonHunt": {
+      "description": "Geolocated treasure hunt in the city of Lyon, featuring clues to uncover by exploring various locations."
+    },
+    "access": {
+      "public": "Public",
+      "private": "Private"
+    }
+  },
+
+  "experience": {
+    "title": "Work Experience",
+    "keyAchievements": "Key achievements",
+    "koesio": {
+      "period": "May 2022 - Present",
+      "position": "Full-Stack Developer",
+      "description": "Design, development, and continuous improvement of robust business applications and SaaS products, focused on reliability, performance, and user experience.",
+      "achievements": [
+        "Designed and developed business-specific applications",
+        "Technical leadership and team coordination on project launch",
+        "Redesigned UX/UI and optimized the technical foundation",
+        "Implemented unit, integration, and end-to-end testing",
+        "Technology watch and selection of appropriate solutions"
+      ]
+    },
+    "ldlc": {
+      "period": "Mar 2020 - Dec 2021",
+      "position": "Full-Stack Developer",
+      "description": "Maintenance and enhancement of multiple e-commerce sites, with a focus on reducing technical debt. Design and development of new internal management tools.",
+      "achievements": [
+        "Maintained and improved 5 e-commerce  including LDLC, Materiel.net and L'armoire de bébé",
+        "Reduced technical debt through targeted improvements",
+        "Designed and built new client management and tracking tools"
+      ]
+    }
+  },
+
+  "skills": {
+    "title": "Skills & Technologies",
+    "frontend": {
+      "title": "Frontend"
+    },
+    "backend": {
+      "title": "Backend"
+    },
+    "cloud": {
+      "title": "Cloud & DevOps"
+    },
+    "tools": {
+      "title": "Tools & Others"
+    }
+  },
+
+  "education": {
+    "title": "Education",
+    "gpa": "{gpa} GPA",
+    "keyAchievements": "Key achievements",
+    "epitech": {
+      "degree": "Web & Mobile Developer",
+      "description": "Intensive training program focused on hands-on learning, covering full-stack development, mobile applications, project management, and autonomous skill progression.",
+      "courses": [
+        "Advanced web development",
+        "Mobile applications",
+        "Software architecture",
+        "Project management",
+        "DevOps & deployment"
+      ],
+      "achievements": [
+        "Built web and mobile applications in team projects",
+        "Collaboratif Post-it websocket application, Airbnb website replica",
+        "Implemented CI/CD pipelines"
+      ]
+    },
+    "iut": {
+      "degree": "University Diploma in Electrical Engineering and Industrial Computing",
+      "description": "Program focused on the design, development, and maintenance of embedded electronic and computing systems, combining theoretical learning with hands-on lab experience.",
+      "courses": [
+        "Analog and digital electronics",
+        "Industrial computing",
+        "Automation and embedded systems",
+        "Signal processing",
+        "Applied mathematics"
+      ],
+      "achievements": [
+        "Implemented communication protocols",
+        "Simulated and built analog and digital circuits",
+        "Tested and debugged embedded electronic systems"
+      ]
+    }
+  },
+
+  "footer": {
+    "description": "Powered by Next.js and shadcn, deployed with Vercel"
+  }
+}

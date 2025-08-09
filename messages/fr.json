@@ -1,0 +1,114 @@
+{
+  "locale": "fr",
+
+  "profile": {
+    "position": "Développeur Full-Stack",
+    "experience": "Expérience: +{count} ans",
+    "description": "Développeur full-stack passionné, animé par l'exigence de qualité technique et le souci de l'impact produit. Attentif à la fiabilité, à la maintenabilité et à l’expérience utilisateur, j'ai à coeur de concevoir des solutions robustes en gardant une vision long terme."
+  },
+
+  "projects": {
+    "title": "Projets",
+    "logicGates": {
+      "description": "Simulateur interactif pour explorer et comprendre le fonctionnement des portes logiques de manière visuelle et intuitive."
+    },
+    "characterGenerator": {
+      "description": "Créer et personnaliser des personnages 2D à partir d’un large choix d’éléments visuels, avec aperçu instantané."
+    },
+    "conway": {
+      "description": "Simulation visuelle du célèbre « Jeu de la vie » de Conway, permettant d'explorer l’émergence de motifs dynamiques à partir de règles simples."
+    },
+    "lyonHunt": {
+      "description": "Chasse au trésor géolocalisée dans la ville de Lyon, comprenant des indices à découvrir en explorant différents lieux."
+    },
+    "access": {
+      "public": "Public",
+      "private": "Privé"
+    }
+  },
+
+  "experience": {
+    "title": "Expériences professionnelles",
+    "keyAchievements": "Réalisations clés ",
+    "koesio": {
+      "period": "Mai 2022 - Aujourd’hui",
+      "position": "Développeur Full-Stack",
+      "description": "Conception, développement et amélioration continue d’applications métier et de produits SaaS robustes, orientés vers la fiabilité, la performance et l’expérience utilisateur.",
+      "achievements": [
+        "Conception et développement d’applications métier",
+        "Pilotage technique et coordination d’équipe sur lancement de projet",
+        "Refonte UX/UI et optimisation de la base technique",
+        "Tests unitaires, d’intégration et end-to-end",
+        "Veille technologique et choix de solutions adaptées"
+      ]
+    },
+    "ldlc": {
+      "period": "Mars 2020 - Décembre 2021",
+      "position": "Développeur Full-Stack",
+      "description": "Maintenance et évolution de plusieurs sites e-commerce, avec un focus sur la réduction de la dette technique. Conception et développement de nouveaux outils de gestion en interne.",
+      "achievements": [
+        "Maintenance et évolution de 5 sites e-commerce dont LDLC, Materiel.net et L'armoire de bébé",
+        "Réduction de la dette technique via des solutions ciblées",
+        "Conception et développement de nouveaux outils de gestion et suivi clients"
+      ]
+    }
+  },
+
+  "skills": {
+    "title": "Compétences et Technologies",
+    "frontend": {
+      "title": "Frontend"
+    },
+    "backend": {
+      "title": "Backend"
+    },
+    "cloud": {
+      "title": "Cloud & DevOps"
+    },
+    "tools": {
+      "title": "Outils et autres"
+    }
+  },
+
+  "education": {
+    "title": "Etudes",
+    "gpa": "GPA : {gpa}/4.0",
+    "keyAchievements": "Réalisations clés ",
+    "epitech": {
+      "degree": "Développeur Web & Mobile",
+      "description": "Formation intensive centrée sur la pratique, couvrant le développement d'applications web et mobiles, la gestion de projets techniques et la montée en compétences en autonomie.",
+      "courses": [
+        "Développement web avancé",
+        "Applications mobiles",
+        "Architecture logicielle",
+        "Gestion de projet",
+        "DevOps et déploiement"
+      ],
+      "achievements": [
+        "Développement d’applications web et mobiles en équipe",
+        "Application websocket Post-it collaboratif, réplicat site Airbnb",
+        "Mise en place de pipelines CI/CD et déploiement"
+      ]
+    },
+    "iut": {
+      "degree": "DUT Génie Électrique et Informatique Industrielle",
+      "description": "Cursus axé sur la conception, le développement et la maintenance de systèmes électroniques et informatiques embarqués, combinant théorie et pratique en laboratoire.",
+      "courses": [
+        "Électronique analogique et numérique",
+        "Informatique industrielle",
+        "Automatisme et systèmes embarqués",
+        "Traitement du signal",
+        "Mathématiques appliquées"
+      ],
+      "achievements": [
+        "Mise en œuvre de protocoles de communication",
+        "Simulation et réalisation de circuits analogiques et numériques",
+        "Tests et mise au point de systèmes électroniques embarqués"
+      ]
+    }
+  },
+
+  "footer": {
+    "description": "Propulsé par Next.js et shadcn, déployé avec Vercel"
+  }
+}
