@@ -2,13 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "node",
+      "type": "node-terminal",
       "request": "launch",
-      "name": "Run Dev",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "console": "internalConsole",
-      "internalConsoleOptions": "neverOpen"
+      "name": "Dev",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

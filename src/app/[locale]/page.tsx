@@ -1,23 +1,21 @@
-import { Education } from "@/components/education";
-import { WorkExperience } from "@/components/experiences";
-import { Footer } from "@/components/footer";
-import { Header } from "@/components/header";
-import { Profile } from "@/components/profile";
-import { Projects } from "@/components/projects";
-import { Skills } from "@/components/skills";
+import { Education } from '@src/components/Education.tsx'
+import { Experiences } from '@src/components/Experiences.tsx'
+import { Profile } from '@src/components/Profile.tsx'
+import { Projects } from '@src/components/Projects.tsx'
+import { Shell } from '@src/components/Shell.tsx'
+import { Skills } from '@src/components/Skills.tsx'
+import { resolveLocale } from '@src/i18n/locale.ts'
 
-export default function Portfolio() {
+export default async function Page({ params }: PageProps<'/[locale]'>) {
+  await resolveLocale(params)
+
   return (
-    <div className="min-h-screen">
-      <Header />
-      <div className="max-w-6xl px-4 py-8 mx-auto space-y-8">
-        <Profile />
-        <Projects />
-        <WorkExperience />
-        <Skills />
-        <Education />
-      </div>
-      <Footer />
-    </div>
-  );
+    <Shell className="space-y-8">
+      <Profile />
+      <Projects />
+      <Experiences />
+      <Skills />
+      <Education />
+    </Shell>
+  )
 }

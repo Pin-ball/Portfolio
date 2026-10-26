@@ -1,12 +1,13 @@
 {
-  "locale": "en",
-
+  "header": {
+    "language": "Change language",
+    "theme": "Toggle theme"
+  },
   "profile": {
     "position": "Full-Stack Developer",
     "experience": "Experience: +{count} years",
     "description": "Passionate full-stack developer driven by technical excellence and product impact. Focused on reliability, maintainability, and user experience, with a strong commitment to building robust solutions and a long-term vision."
   },
-
   "projects": {
     "title": "Featured Projects",
     "logicGates": {
@@ -26,7 +27,6 @@
       "private": "Private"
     }
   },
-
   "experience": {
     "title": "Work Experience",
     "keyAchievements": "Key achievements",
@@ -53,7 +53,6 @@
       ]
     }
   },
-
   "skills": {
     "title": "Skills & Technologies",
     "frontend": {
@@ -69,7 +68,6 @@
       "title": "Tools & Others"
     }
   },
-
   "education": {
     "title": "Education",
     "gpa": "{gpa} GPA",
@@ -107,8 +105,12 @@
       ]
     }
   },
-
   "footer": {
-    "description": "Powered by Next.js and shadcn, deployed with Vercel"
+    "description": "Powered by Next.js and Tailwind, deployed with Vercel"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The page you’re looking for doesn’t exist or has been moved.",
+    "back": "Back to home"
   }
 }

@@ -1,12 +1,13 @@
 {
-  "locale": "fr",
-
+  "header": {
+    "language": "Changer de langue",
+    "theme": "Changer de thème"
+  },
   "profile": {
     "position": "Développeur Full-Stack",
     "experience": "Expérience: +{count} ans",
     "description": "Développeur full-stack passionné, animé par l'exigence de qualité technique et le souci de l'impact produit. Attentif à la fiabilité, à la maintenabilité et à l’expérience utilisateur, j'ai à coeur de concevoir des solutions robustes en gardant une vision long terme."
   },
-
   "projects": {
     "title": "Projets",
     "logicGates": {
@@ -26,7 +27,6 @@
       "private": "Privé"
     }
   },
-
   "experience": {
     "title": "Expériences professionnelles",
     "keyAchievements": "Réalisations clés ",
@@ -53,7 +53,6 @@
       ]
     }
   },
-
   "skills": {
     "title": "Compétences et Technologies",
     "frontend": {
@@ -69,7 +68,6 @@
       "title": "Outils et autres"
     }
   },
-
   "education": {
     "title": "Etudes",
     "gpa": "GPA : {gpa}/4.0",
@@ -107,8 +105,12 @@
       ]
     }
   },
-
   "footer": {
-    "description": "Propulsé par Next.js et shadcn, déployé avec Vercel"
+    "description": "Propulsé par Next.js et Tailwind, déployé avec Vercel"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "description": "La page que vous cherchez n’existe pas ou a été déplacée.",
+    "back": "Retour à l’accueil"
   }
 }
